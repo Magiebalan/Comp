@@ -36,7 +36,7 @@ public class EmployeeDataController {
     @ExceptionHandler(value = EmployeeDataAlreadyExistExp.class)
 	public ResponseEntity EmployeeDataAlreadyExistExp(
 			EmployeeDataAlreadyExistExp EmployeeDataAlreadyExistExp) {
-		return new ResponseEntity("Employee already exists! in Database", HttpStatus.CONFLICT);
+		return new ResponseEntity("Employee already exists!", HttpStatus.CONFLICT);
 
     }
 }
