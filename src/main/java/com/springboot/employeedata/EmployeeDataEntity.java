@@ -46,6 +46,7 @@ public class EmployeeDataEntity {
 		this.salary = salary;
 		this.designation = designation;
 	}
+	//Super class
 	public EmployeeDataEntity() {
 		super();}
 }
